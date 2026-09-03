@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environment
+.venv/
+.python-version
+
+# Local working areas — notes, experiments, raw runs, datasets
+docs/
+scratch/
+data

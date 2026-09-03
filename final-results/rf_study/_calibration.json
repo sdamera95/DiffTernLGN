@@ -1,0 +1,31 @@
+{
+  "R_F": 4.996165,
+  "R_A": 0.295134,
+  "task_loss": 1.14494,
+  "grad_RF": 0.016334,
+  "grad_RA": 0.004488,
+  "grad_task": 0.369042,
+  "cos_RA_RF": 0.575,
+  "dead_frac": 0.0001,
+  "const_frac": 0.0092,
+  "energy": {
+    "constant": 0.1829,
+    "linear": 0.3656,
+    "quadratic": 0.3133,
+    "cubic": 0.1099,
+    "quartic": 0.0281
+  },
+  "beta_match_RA": 0.005907,
+  "beta_match_task_grad": 22.59,
+  "beta_10pct_task": 0.02292,
+  "recentered_grid": [
+    0,
+    0.0006,
+    0.002,
+    0.006,
+    0.02,
+    0.06,
+    0.2,
+    0.6
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "run_id": "sweep_b0.6_s42",
+  "tag": "sweep",
+  "beta": 0.6,
+  "seed": 42,
+  "steps": 100000,
+  "widths": [
+    12000,
+    12000,
+    12000,
+    12000
+  ],
+  "neurons": 48000,
+  "smoke": false,
+  "step0": {
+    "R_F": 3.693244218826294,
+    "rf_grad_norm": 0.01805022731423378,
+    "beta_RF": 2.2159465312957765
+  },
+  "soft_train": 0.66926,
+  "soft_test": 0.4944,
+  "circuit_test": 0.4663,
+  "gap_pp": 2.8100000000000014,
+  "unknown_pct": 0.5310061083333333,
+  "soft_spectrum": {
+    "mean_l1_norm": 0.707729160785675,
+    "std_l1_norm": 0.9706881642341614,
+    "rf_shape": 0.9926811421072955,
+    "mean_tt_l2": 1.0328404903411865,
+    "energy": {
+      "constant": 0.24065694212913513,
+      "linear": 0.4762829542160034,
+      "quadratic": 0.23314689099788666,
+      "cubic": 0.04329188913106918,
+      "quartic": 0.006621357053518295
+    }
+  },
+  "soft_RF_check": 0.7076948285102844,
+  "hard_spectrum": {
+    "mean_l1_norm": 0.7156909371578453,
+    "std_l1_norm": 1.080383733726668,
+    "rf_shape": 0.30520212621179366,
+    "mean_tt_l2": 0.9327713205394863,
+    "energy": {
+      "constant": 0.017426007235876853,
+      "linear": 0.2482897530921846,
+      "quadratic": 0.10233301653092598,
+      "cubic": 0.01997762871820488,
+      "quartic": 0.003390261089474383
+    }
+  },
+  "gate_stats": {
+    "dead_frac": 0.6085833333333334,
+    "const_frac": 0.6108125,
+    "unique_gates": 2844,
+    "curated_h0": 0.003,
+    "curated_h1": 0.03716666666666667
+  },
+  "train_wall_s": 162.06271719932556,
+  "total_wall_s": 190.92118501663208,
+  "gpu_name": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition"
+}
